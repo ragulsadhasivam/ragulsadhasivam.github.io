@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ragul Sadhasivam – Motion Designer & UI/UX Designer</title>
+<meta name="description" content="Portfolio of Ragul Sadhasivam, a motion and UI/UX designer in Hyderabad: app splash screens, loaders, pairing flows, navigation displays and brand motion.">
+<meta name="theme-color" content="#B6501C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23B6501C'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%23FFF3E4' font-family='Georgia,serif'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body data-avatar-glb="" data-avatar-video="assets/video/avatar-loop.mp4">
+<a class="skip" href="#work">Skip to selected work</a>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="Ragul Sadhasivam, back to top">Ragul Sadhasivam</a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#craft">Craft</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" aria-labelledby="name">
+  <div class="hero-copy">
+    <p class="eyebrow">Motion &amp; UI/UX designer · Hyderabad, India</p>
+    <h1 id="name">Ragul<br>Sadhasivam</h1>
+    <p class="role">Designing app screens and the <em>motion</em> that makes them clear.</p>
+    <p class="support">Loaders, splash screens, pairing flows and navigation displays for mobile products, designed in Figma and animated in After Effects.</p>
+    <div class="cta">
+      <a class="btn primary" href="#work">View selected work</a>
+      <a class="btn link" href="#contact">Contact</a>
+    </div>
+    <div class="guide-row">
+      <button class="tour-btn" id="tour" type="button" aria-pressed="false">
+        <span class="tour-ico" aria-hidden="true"></span><span class="tour-label">Hear the intro</span>
+      </button>
+      <span class="hint">A short spoken walk-through. Off until you press it.</span>
+    </div>
+    <p class="caption" id="caption" aria-live="polite" hidden></p>
+  </div>
+
+  <div class="stage3d" id="stage3d">
+    <video id="avatar-video" class="avatar-video" muted loop playsinline preload="metadata" poster="assets/img/avatar-poster.jpg" aria-label="Ragul standing beside his standing desk, breathing and shifting naturally" hidden></video>
+    <canvas id="avatar-canvas" class="avatar-canvas" aria-hidden="true"></canvas>
+    <canvas id="scene3d-canvas" aria-label="Interactive 3D scene: Ragul standing beside his standing desk with an ultrawide monitor" role="img"></canvas>
+    <!-- shown only when WebGL is unavailable: a still, layered picture of the same scene -->
+    <div class="scene" id="scene" role="img" aria-label="Illustration of Ragul standing beside his standing desk with an ultrawide monitor">
+      <div class="wall"></div><div class="floor"></div>
+      <div class="layer desk-l" data-depth="-0.5"><img class="desk" src="assets/img/desk.png" width="1400" height="852" alt="" decoding="async" loading="lazy"></div>
+      <div class="layer shadow-l" data-depth="0.3"><span class="shadow s-desk"></span><span class="shadow s-avatar"></span></div>
+      <div class="layer avatar-l" data-depth="1"><div class="avatar"><img class="pose on" src="assets/img/pose1.png" width="279" height="818" alt="" decoding="async" loading="lazy" style="--h:1"></div></div>
+    </div>
+  </div>
+
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0,70 C220,10 420,110 720,66 C1020,22 1220,104 1440,52 L1440,120 L0,120 Z"/></svg>
+</section>
+
+<!-- ============ WORK ============ -->
+<section id="work" class="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <header class="sec-head rv">
+      <p class="label">Selected work</p>
+      <h2 id="work-h">Six pieces of interface motion for Nuclyo and RYDYT.</h2>
+      <p class="lead">Each piece started as a screen in Figma and was animated in After Effects. Videos play while they are on screen; use the button on each to pause.</p>
+    </header>
+
+    <article class="clip rv" aria-labelledby="c1">
+      <figure class="phone"><video muted loop playsinline preload="none" poster="assets/img/poster-nuclyo-splash-screen.jpg" src="assets/video/nuclyo-splash-screen.mp4" aria-label="Nuclyo splash screen animation" width="1080" height="1920"></video><button class="vbtn" type="button" aria-label="Pause Nuclyo splash screen animation" aria-pressed="true"></button></figure>
+      <div class="clip-text">
+        <p class="label">App splash screen · 2026</p>
+        <h3 id="c1">Nuclyo Splash Screen</h3>
+        <dl class="facts"><div><dt>For</dt><dd>Nuclyo CleanTech</dd></div><div><dt>Timeline</dt><dd>4 weeks</dd></div><div><dt>Tools</dt><dd>After Effects, Lottie, Figma</dd></div></dl>
+        <h4>The brief</h4><p>A launch animation for a smart clean-tech mobile app, the first moment a user has with the product.</p>
+        <h4>What I made</h4><p>Organic vector motion that hands off directly into biometric authentication, so the launch and the sign-in step read as one continuous flow.</p>
+        <a class="textlink" href="assets/video/nuclyo-splash-screen.mp4" target="_blank" rel="noopener">Open the video <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <article class="clip rev rv" aria-labelledby="c2">
+      <figure class="phone"><video muted loop playsinline preload="none" poster="assets/img/poster-nuclyo-loader-anim.jpg" src="assets/video/nuclyo-loader-anim.mp4" aria-label="Nuclyo logo loader animation" width="720" height="1280"></video><button class="vbtn" type="button" aria-label="Pause Nuclyo logo loader animation" aria-pressed="true"></button></figure>
+      <div class="clip-text">
+        <p class="label">Loader animation · 2026</p>
+        <h3 id="c2">Nuclyo Logo Loader</h3>
+        <dl class="facts"><div><dt>For</dt><dd>Nuclyo CleanTech</dd></div><div><dt>Timeline</dt><dd>3 weeks</dd></div><div><dt>Tools</dt><dd>After Effects, Lottie, Figma</dd></div></dl>
+        <h4>The brief</h4><p>A branded loader to replace the generic circular spinner.</p>
+        <h4>What I made</h4><p>A rhythmic vector animation whose motion reflects sensor connection and air-health data, exported as Lottie JSON for use across mobile and web.</p>
+        <a class="textlink" href="assets/video/nuclyo-loader-anim.mp4" target="_blank" rel="noopener">Open the video <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <article class="clip rv" aria-labelledby="c3">
+      <figure class="square"><video muted loop playsinline preload="none" poster="assets/img/poster-nuclyo-bluetooth-anim.jpg" src="assets/video/nuclyo-bluetooth-anim.mp4" aria-label="Nuclyo Bluetooth pairing animation" width="500" height="500"></video><button class="vbtn" type="button" aria-label="Pause Nuclyo Bluetooth pairing animation" aria-pressed="true"></button></figure>
+      <div class="clip-text">
+        <p class="label">Device pairing feedback · 2025</p>
+        <h3 id="c3">Nuclyo Bluetooth Pairing</h3>
+        <dl class="facts"><div><dt>For</dt><dd>Nuclyo CleanTech</dd></div><div><dt>Timeline</dt><dd>3 weeks</dd></div><div><dt>Tools</dt><dd>After Effects, Lottie, Figma</dd></div></dl>
+        <h4>The brief</h4><p>Feedback that reassures users while an IoT device is discovered and connected.</p>
+        <h4>What I made</h4><p>A radar-wave pulse with radial easing that walks the user through detection, handshake and confirmed connection.</p>
+        <a class="textlink" href="assets/video/nuclyo-bluetooth-anim.mp4" target="_blank" rel="noopener">Open the video <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <article class="clip rev rv" aria-labelledby="c4">
+      <figure class="square"><video muted loop playsinline preload="none" poster="assets/img/poster-rydyt-outline-loader.jpg" src="assets/video/rydyt-outline-loader.mp4" aria-label="RYDYT outline loader animation" width="500" height="500"></video><button class="vbtn" type="button" aria-label="Pause RYDYT outline loader animation" aria-pressed="true"></button></figure>
+      <div class="clip-text">
+        <p class="label">Loading micro-interaction · 2025</p>
+        <h3 id="c4">RYDYT Outline Loader</h3>
+        <dl class="facts"><div><dt>For</dt><dd>RYDYT Mobility</dd></div><div><dt>Timeline</dt><dd>2 weeks</dd></div><div><dt>Tools</dt><dd>After Effects, Lottie, SVG, Figma</dd></div></dl>
+        <h4>The brief</h4><p>A loading state for telemetry loading, GPS lock and bike Bluetooth pairing.</p>
+        <h4>What I made</h4><p>An outline that traces the RYDYT badge on continuous stroke trim paths, so the loop repeats without a visible jump.</p>
+        <a class="textlink" href="assets/video/rydyt-outline-loader.mp4" target="_blank" rel="noopener">Open the video <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <article class="clip rv" aria-labelledby="c5">
+      <figure class="square"><video muted loop playsinline preload="none" poster="assets/img/poster-rydyt-compass-anim.jpg" src="assets/video/rydyt-compass-anim.mp4" aria-label="RYDYT compass navigation animation" width="1000" height="1000"></video><button class="vbtn" type="button" aria-label="Pause RYDYT compass navigation animation" aria-pressed="true"></button></figure>
+      <div class="clip-text">
+        <p class="label">Navigation display motion · 2025</p>
+        <h3 id="c5">RYDYT Compass HUD</h3>
+        <dl class="facts"><div><dt>For</dt><dd>RYDYT Mobility</dd></div><div><dt>Timeline</dt><dd>4 weeks</dd></div><div><dt>Tools</dt><dd>After Effects, Figma</dd></div></dl>
+        <h4>The brief</h4><p>A directional compass for a motorcycle handlebar display, meant to be read in a quick glance at speed.</p>
+        <h4>What I made</h4><p>Smooth rotation and a waypoint pulse that keep the rider oriented without distraction, with a high-contrast night mode.</p>
+        <a class="textlink" href="assets/video/rydyt-compass-anim.mp4" target="_blank" rel="noopener">Open the video <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <article class="clip rev rv" aria-labelledby="c6">
+      <figure class="phone"><video muted loop playsinline preload="none" poster="assets/img/poster-rydyt-branding.jpg" src="assets/video/rydyt-branding.mp4" aria-label="RYDYT brand motion reel" width="720" height="1280"></video><button class="vbtn" type="button" aria-label="Pause RYDYT brand motion reel" aria-pressed="true"></button></figure>
+      <div class="clip-text">
+        <p class="label">Brand motion identity · 2025</p>
+        <h3 id="c6">RYDYT Brand Motion</h3>
+        <dl class="facts"><div><dt>For</dt><dd>RYDYT Mobility</dd></div><div><dt>Timeline</dt><dd>4 weeks</dd></div><div><dt>Tools</dt><dd>After Effects, Illustrator, Premiere Pro</dd></div></dl>
+        <h4>The brief</h4><p>A kinetic brand identity for a smart electric two-wheeler ecosystem.</p>
+        <h4>What I made</h4><p>Bold dimensional typography combined with brand reveals, logo morphing and motion guidelines for campaign launches, app openers and showroom displays.</p>
+        <a class="textlink" href="assets/video/rydyt-branding.mp4" target="_blank" rel="noopener">Open the video <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <p class="more rv"><a class="textlink" href="https://github.com/ragulsadhasivam/portfolio" target="_blank" rel="noopener">More on GitHub: ragulsadhasivam/portfolio <span aria-hidden="true">↗</span></a></p>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="about" aria-labelledby="about-h">
+  <div class="wrap about-grid">
+    <figure class="portrait rv">
+      <div class="arch"><img src="assets/img/hero.png" width="273" height="934" alt="Illustrated portrait of Ragul: dark curly hair, short beard, black open shirt over a white tee" loading="lazy" decoding="async"></div>
+    </figure>
+    <div class="about-copy rv">
+      <p class="label">About</p>
+      <h2 id="about-h">I like it when an interface explains itself.</h2>
+      <p>I'm a motion and UI/UX designer in Hyderabad. I design interface screens in Figma and animate them in After Effects: splash screens, loaders, pairing and loading states, navigation displays and brand motion.</p>
+      <p>To me, motion is part of how an interface communicates. It shows what the system is doing, directs attention and makes transitions easy to follow, in the product's own visual language. I also use AI tools to explore ideas faster and refine results.</p>
+      <dl class="about-facts">
+        <div><dt>Based in</dt><dd>Hyderabad, Telangana, India</dd></div>
+        <div><dt>Now</dt><dd>Motion Designer / UI/UX Designer at Moai Consulting LLP, since January 2025</dd></div>
+        <div><dt>Education</dt><dd>B.Com, Bishop Heber College, Tiruchirappalli (2019–2022)</dd></div>
+        <div><dt>Languages</dt><dd>Tamil, English</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CRAFT ============ -->
+<section id="craft" class="craft" aria-labelledby="craft-h">
+  <div class="wrap">
+    <header class="sec-head rv"><p class="label">Craft</p><h2 id="craft-h">What motion does in an interface.</h2></header>
+    <div class="three">
+      <div class="rv"><h3>Show state</h3><p>The Nuclyo pairing pulse moves through discovery, handshake and connection, so a user can read the state without a line of text.</p></div>
+      <div class="rv"><h3>Direct attention</h3><p>The RYDYT compass pulse points to the next waypoint, so a rider stays oriented in a single glance.</p></div>
+      <div class="rv"><h3>Explain transitions</h3><p>The Nuclyo splash flows straight into biometric sign-in, so the launch and the next step feel like one movement.</p></div>
+    </div>
+
+    <div class="cols">
+      <div class="rv">
+        <h3 class="h-sm">Experience</h3>
+        <div class="job-top"><b>Motion Designer / UI/UX Designer</b><span>Jan 2025 – Present</span></div>
+        <p class="org">Moai Consulting LLP · Hyderabad, Telangana</p>
+        <ul class="bul">
+          <li>Designed and animated splash, onboarding, loading and pairing sequences for the Nuclyo and RYDYT apps so each system state is clear to the user.</li>
+          <li>Designed screens and prototypes in Figma, then built After Effects animation that follows the product's layout, components and brand.</li>
+          <li>Developed the RYDYT motion identity, covering logo reveals, kinetic typography and guidelines for campaign, app and showroom use.</li>
+          <li>Exported animations as JSON/Lottie assets using Bodymovin for developer handoff and integration into iOS and Android apps where required.</li>
+        </ul>
+      </div>
+      <div class="rv">
+        <h3 class="h-sm">Tools</h3>
+        <ul class="chips">
+          <li>Figma</li><li>After Effects</li><li>Illustrator</li><li>Photoshop</li><li>Premiere Pro</li><li>DaVinci Resolve</li><li>Lottie (Bodymovin)</li><li>AI-assisted workflow</li>
+        </ul>
+        <h3 class="h-sm">Also</h3>
+        <p class="plain">Interface design and prototyping, responsive mobile UI for iOS and Android, timing, easing and visual storytelling, kinetic typography, video editing and finishing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="contact" aria-labelledby="contact-h">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="label">Contact</p>
+      <h2 id="contact-h">Have an interface that should <em>move</em>?</h2>
+      <a class="mail" href="mailto:ragulsadhasivamm@gmail.com">ragulsadhasivamm@gmail.com</a>
+      <p class="plain"><a href="tel:+917373522144">+91 7373-522-144</a><br>Hyderabad, Telangana, India</p>
+      <div class="cta">
+        <a class="btn primary light" href="assets/Ragul_S_Motion_UIUX_Resume.pdf" download>Download resume (PDF)</a>
+        <a class="btn link light" href="https://github.com/ragulsadhasivam/portfolio" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="signoff" aria-hidden="true"><img src="assets/img/pose4.png" width="286" height="780" alt="" loading="lazy" decoding="async"></div>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><span>© Ragul Sadhasivam</span><a href="#top">Back to top ↑</a></footer>
+
+<!-- tour guide card: appears only while the spoken walk-through runs -->
+<aside class="guide" id="guide" aria-label="Spoken walk-through" hidden>
+  <div class="guide-face"><img id="guide-img" src="assets/img/face1.png" alt="" width="150" height="223"></div>
+  <div class="guide-body">
+    <p class="guide-text" id="guide-text"></p>
+    <button class="guide-stop" id="guide-stop" type="button">Stop</button>
+  </div>
+</aside>
+
+<script>if(!document.body.dataset.avatarVideo){var s=document.createElement("script");s.type="module";s.src="scene3d.js";document.body.appendChild(s)}</script>
+<script src="app.js" defer></script>
+</body>
+</html>

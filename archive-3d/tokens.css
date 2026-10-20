@@ -1,0 +1,33 @@
+/* Design tokens: every value comes from MASTER.md */
+:root {
+  /* Colour system: one orange hue (about 21 deg), saturation held up so it never goes muddy.
+     60% world orange, 30% cocoa (shade of the same hue), 10% accents: peach (analogous light)
+     and deep teal (the complement), used sparingly. */
+  --ink: #B6501C;          /* world orange; cream on it 4.6:1 */
+  --world-lit: #C25A24;    /* same hue, lighter */
+  --world-deep: #A94817;   /* same hue, deeper */
+  --surface: #2B140B;      /* cocoa; cream on it 15.9:1 */
+  --line: #E58B58;         /* orange tint for hairlines */
+  --bone: #FFF3E4;         /* cream text */
+  --muted: #FFF3E4;
+  --amber: #FFE3CC;        /* light peach: large italic words */
+  --sun: #F2A36B;          /* decorative highlight; 8.5:1 on cocoa */
+  --teal: #0F5C5F;         /* complement; cream on it 7:1 */
+
+  --serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  --enter: 800ms;
+  --hover: 180ms;
+
+  --radius: 4px;
+  --s1: 8px; --s2: 16px; --s3: 24px; --s4: 32px; --s5: 48px; --s6: 64px; --s7: 96px; --s8: 128px;
+
+  --display: clamp(3.5rem, 11vw, 9rem);
+  --h2: clamp(2.25rem, 5vw, 3.5rem);
+  --body: 1.0625rem;
+  --label: 0.75rem;
+  --gutter: clamp(20px, 5vw, 72px);
+}
